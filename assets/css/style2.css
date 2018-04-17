@@ -9,7 +9,7 @@ ol, ul {
 header {
 	background: #ffffff;
 	height: 68px;
-	width: 960px	
+	width: 960px;	
 	top:0;
 	margin-bottom: 20px;
 	margin-left: auto;
@@ -21,7 +21,7 @@ header nav{
 	margin-top: 20px;
 	margin-right: 20px;
 }
-header .hightlight, header .current a{
+header .highlight, header .current a{
 	color:#4aaaa5;
 	font-weight: bold;	
 }
@@ -84,9 +84,7 @@ body {
 	margin-right: auto; 
 */
 }
-.main {
-	/* [disabled]width: 10%; */	
-}
+
 #contact_section {
 	background-color: #ffffff;
 	/* [disabled]width:93%; */
@@ -232,9 +230,7 @@ span.footer_text {
 		line-height: 1.4em;
 		text-align: right;
 	}
-	ol, ul {
-	/* [disabled]margin-left: 20%; */
-	}
+
 	header nav {
 		margin-top: 0px;
 		float:none;
@@ -333,6 +329,7 @@ span.visionz {
 	}
 	body {
 	background-image:none;
+	}
 	
 	p {
 		font-size: .9em;
@@ -383,7 +380,7 @@ and (max-device-width: 812px)
 		display: block;
 		width: 100%;
 	}
-	header .hightlight, header .current a{
+	header .highlight, header .current a{
 		width: 100%;	
 	}
 	#name {
@@ -496,4 +493,3 @@ and (max-device-width: 812px)
   	margin: 1px 3px;
 	margin-right: 55px;
 	}
-}

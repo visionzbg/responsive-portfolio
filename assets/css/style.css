@@ -9,7 +9,7 @@ ol, ul {
 header {
 	background: #ffffff;
 	height: 68px;
-	width: 960px	
+	width: 960px;	
 	top:0;
 	margin-bottom: 20px;
 	margin-left: auto;
@@ -21,7 +21,7 @@ header nav{
 	margin-top: 20px;
 	margin-right: 20px;
 }
-header .hightlight, header .current a{
+header .highlight, header .current a{
 	color: #4aaaa5;
 	font-weight: bold;
 }
@@ -142,9 +142,7 @@ span.footer_text {
 	/* [disabled]box-sizing: border-box; */
 		transition: all 1s;
 	}
-	header {
-	/* [disabled]display: flex; */
-	}
+
 	header {
 		height: 90px;
 		width: 100%; 
@@ -166,9 +164,7 @@ span.footer_text {
 		line-height: 1.4em;
 		text-align: right;
 	}
-	ol, ul {
-	/* [disabled]margin-left: 20%; */
-	}
+
 	header nav {
 		margin-top: 0px;
 		float:none;
@@ -221,7 +217,7 @@ and (max-device-width: 812px)
 		display: block;
 		width: 100%;
 	}
-	header .hightlight, header .current a{
+	header .highlight, header .current a{
 		width: 100%;	
 	}
 	#name {
@@ -330,5 +326,5 @@ and (max-device-width: 812px)
 		padding: 0 0px 0 0px;
 		border-right-style:none;
 	}
-}
+
 	
